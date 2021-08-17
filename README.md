@@ -7,3 +7,4 @@ There are three different logins
   Login Id and Password - chef1 , chef1
 3.Manager
   Login Id and Password - admin , admin
+Requires MySql Workbench and Xampp
