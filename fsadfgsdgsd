@@ -1,0 +1,33 @@
+
+
+CREATE TABLE `temp12` (
+  `id` int(11) NOT NULL,
+  `fname` varchar(50) NOT NULL,
+  `price` int(11) NOT NULL,
+  `quantity` int(11) NOT NULL,
+  `user` varchar(50) NOT NULL,
+  `table no` int(11) NOT NULL,
+  `action` varchar(50) NOT NULL DEFAULT 'Pending',
+  `orderno` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `temp12`
+--
+ALTER TABLE `temp12`
+  ADD PRIMARY KEY (`orderno`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `temp12`
+--
+ALTER TABLE `temp12`
+  MODIFY `orderno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=64;
+
